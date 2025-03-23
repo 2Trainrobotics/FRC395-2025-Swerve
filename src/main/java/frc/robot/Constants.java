@@ -59,6 +59,17 @@ public final class Constants {
     public static final boolean kGyroReversed = false;
   }
 
+  public static final class ElevatorConstants {
+    // SPARK MAX CAN IDs
+    public static final int kLeftElevatorCanId = 13;
+    public static final int kRightElevatorCanId = 14;
+
+    // Speed
+    public static double kElevatorUpSpeed               = 0.2;
+    public static double kElevatorDownSpeed             = -0.2;
+    public static double kElevatorMaintainPositionSpeed =  0.02;
+  }
+
   public static final class ModuleConstants {
     // The MAXSwerve module can be configured with one of three pinion gears: 12T,
     // 13T, or 14T. This changes the drive speed of the module (a pinion gear with
